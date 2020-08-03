@@ -1,0 +1,15 @@
+{
+  "name": "ejemplo2",
+  "version": "1.0.0",
+  "description": "Red Social De Mascotas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ORT",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
