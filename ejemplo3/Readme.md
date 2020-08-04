@@ -58,6 +58,6 @@ Además te genera automáticamente un index,html en donde se puede ver con más 
 
 Se puede usar también utilizar distintos métodos que nos ayudan a verificar distintas condiciones cuando hacemos los test
 
-![image alt text](readmeImages/imagen 10.png)
+![image alt text](readmeImages/imagen10.png)
 
 Para más información sobre más métodos y que hacen cada uno leer el siguiente link [https://jestjs.io/docs/en/expect](https://jestjs.io/docs/en/expect)
