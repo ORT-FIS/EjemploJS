@@ -172,7 +172,7 @@ Luego simplemente te va a pedir una configuración y dentro de las opciones se p
 
 Las herramientas de arriba te permitirán navegar por el código utilizando el debug. En orden son Continue,Step Over,Step into, Step out, Restart, Stop.
 
-       ![image alt text](readmeImages/image_28.png)
+![image alt text](readmeImages/image_28.png)
 
 Para más información acerca del debug simplemente haga clic en este link
 
