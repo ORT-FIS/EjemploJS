@@ -56,8 +56,8 @@ Además te genera automáticamente un index,html en donde se puede ver con más 
 
 **Tipos de Assert**
 
-Se puede usar también utilizar distintos métodos que nos ayudan a verificar distintas condiciones cuando hacemos los tes
+Se puede usar también utilizar distintos métodos que nos ayudan a verificar distintas condiciones cuando hacemos los test
 
-.
+
 
 Para más información sobre más métodos y que hacen cada uno leer el siguiente link [https://jestjs.io/docs/en/expect](https://jestjs.io/docs/en/expect)
