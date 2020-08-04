@@ -1,15 +1,5 @@
 # Material Design:
 
-Introducción -> Qué es
-
-Para qué sirve
-
-Alternativas
-
-Por qué es importante para un desarrollador saber estás cosas
-
-Implementación en nuestro proyecto
-
 ## Introducción:
 
 Material Design son un conjunto de normas de diseños enfocadas en el sistema operativo Android y extendida en la web y en distintas plataformas.
@@ -22,9 +12,10 @@ Su nombre traduce "Diseño material", y… ¿Esto qué significa? Esta filosofí
 
 Entonces es una serie de pautas en las cuales los colores, las sombras, la profundidad, las superficies y los bordes juegan un papel protagonista, tal como en la realidad material que experimentamos a diario.
 
-## Para qué sirve?:
+## Para qué sirve?
 
-Como todo principio o norma nos sirve como guía a la hora de hacer algo.Un diseñador a la hora de hacer un diseño le es de utilidad seguir estos principios para poder tener mayor certeza de lograr un resultado usable, acabado, coherente y avalado por mucha gente con vasta experiencia en diseño.
+Como todo principio o norma nos sirve como guía a la hora de hacer algo.
+Un diseñador a la hora de hacer un diseño le es de utilidad seguir estos principios para poder tener mayor certeza de lograr un resultado usable, acabado, coherente y avalado por mucha gente con vasta experiencia en diseño.
 
 ## Alternativas:
 
@@ -42,7 +33,7 @@ Se puede ver algunos ejemplos sobre este último aquí:
 
 [https://bashooka.com/inspiration/neumorphism-ui-design-examples/](https://bashooka.com/inspiration/neumorphism-ui-design-examples/)
 
-## Por qué como desarrollador esto importa?:
+## Por qué como desarrollador esto importa?
 
 En el día a día como desarrollador no somos totalmente ajenos a reuniones de diseño, instancias de brainstorming sobre posibles diseños e ideas, revisiones de diseño u otras actividades que impliquen ponernos en el lugar de un usuario real y pensar que sería lo mejor para este.
 
