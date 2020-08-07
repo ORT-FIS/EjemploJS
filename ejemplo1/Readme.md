@@ -1,4 +1,4 @@
-## **Instalación básica de VS Code**
+# **Instalación básica de VS Code**
 
 Se utilizará el Visual Studio Code como IDE de preferencia para poder escribir todo el código del sistema. A continuación se deja el link de la instalación y se muestra como se descarga. [https://code.visualstudio.com/](https://code.visualstudio.com/)
 

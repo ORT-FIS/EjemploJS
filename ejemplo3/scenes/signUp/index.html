@@ -8,31 +8,47 @@
 </head>
 
 <body>
-    <div>
-        <form method="post">
-            <ul>
-                <li>
+    <div class="container">
+        <div class="formContainer">
+            <form method="post" class="form">
+                <div class="field">
                     <label for="name">Nombre:</label>
                     <input type="text" id="name" name="pet_name">
-                </li>
-                <li>
-                    <label for="mail">Correo electrónico dueño:</label>
+                </div>
+                <div class="field">
+                    <label for="mail">Correo:</label>
                     <input type="email" id="mail" name="pet_mail">
-                </li>
-                <li>
+                </div>
+                <div class="field">
                     <label for="breed">Raza:</label>
                     <input type="text" id="text" name="pet_breed">
-                </li>
-                <li>
+                </div>
+                <div class="field">
                     <label for="password">Contraseña:</label>
                     <input type="password" id="password" name="pet_password">
-                </li>
-            </ul>
-            <li class="button">
-                <button type="submit">Envíe su mensaje</button>
-            </li>
-        </form>
+                </div>
+                <div class="formButton">
+                    <button type="submit">Envíe su mensaje</button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
+<style>
+    .formContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formButton {
+        display: flex;
+        justify-content: center;
+    }
+</style>
 
 </html>
