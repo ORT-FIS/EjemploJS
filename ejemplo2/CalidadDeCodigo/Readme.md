@@ -1,98 +1,98 @@
 ## **Google Style Guide (principales)**
 
-**Source file**
+### **Source file**
 
 A continuación se explica puntos básicos relacionados al manejo de archivos en un proyecto javascript.
 
-#### **Nombres de archivos\*\***:** Los archivos se nombran en lower case, utilizando como separador de cada palabra del nombre un guión o guión bajo. Cada archivo debe tener extensión **.js\*\*.
+**Nombres de archivos:** Los archivos se nombran en lower case, utilizando como separador de cada palabra del nombre un guión o guión bajo. Cada archivo debe tener extensión \*\*.js\*\*.
 
 Por ejemplo: **main.js**
 
-#### **Convenciones al importar archivos\*\***:\*\* A continuación se explican algunos puntos importantes al importar archivos.
+**Convenciones al importar archivos**: A continuación se explican algunos puntos importantes al importar archivos.
 
 - En los imports de archivos no es necesario colocar la extensión en el nombre del archivo pero es recomendable:
 
-import '../directory/file'; -> No recomendado
+  `import '../directory/file'; -> No recomendado`
 
-import '../directory/file.js'; -> Recomendado
+  `import '../directory/file.js'; -> Recomendado`
 
 - No deberían haber varios imports del mismo archivo:
 
-import {short1} from './long/path/to/a/file.js';
+  `import {short1} from './long/path/to/a/file.js';`
 
-import {short2} from'./long/path/to/a/file.js'; -> No recomendado
+  `import {short2} from'./long/path/to/a/file.js'; -> No recomendado`
 
-import {short1,short2} from'./long/path/to/a/file.js';-> Recomendado
+  `import {short1,short2} from'./long/path/to/a/file.js';-> Recomendado`
 
-- **Nombres de módulos en imports: **Al importar todo el contenido de un archivo utilizando \* y renombrar utilizando **as <nombre> **es recomendable que el nombre siga lower camel case:
+- Nombres de módulos en imports: Al importar todo el contenido de un archivo utilizando \* y renombrar utilizando **as <nombre> **es recomendable que el nombre siga lower camel case:
 
-import \* as libString from './lib/string.js';
+  `import \* as libString from './lib/string.js';`
 
-- **Nombres de submódulos en imports: **si necesitas importar un función de un archivo y sucede que esta ya está definida en el archivo actual se recomienda renombrarla en el import:
+- Nombres de submódulos en imports: si necesitas importar un función de un archivo y sucede que esta ya está definida en el archivo actual se recomienda renombrarla en el import:
 
-import {Cat as BigCat} from './biganimals.js';
+  `import {Cat as BigCat} from './biganimals.js';`
 
-function Cat(){}
+  `function Cat(){}`
 
-#### **Convenciones al exportar archivos\*\***:\*\* A continuación se explican algunos puntos importantes al exportar archivos.
+  **Convenciones al exportar archivos**: A continuación se explican algunos puntos importantes al exportar archivos.
 
-- **default vs named exports: **Al exportar todo el contenido de un archivo utilizando no se recomienda utilizar **default**.
+- default vs named exports: Al exportar todo el contenido de un archivo utilizando no se recomienda utilizar **default**.
 
-// Do not use default exports:
+  `// Do not use default exports:`
 
-export default class Foo { ... } // BAD!
+  `export default class Foo { ... } // BAD!`
 
-// Use named exports:
+  `// Use named exports:`
 
-export class Foo { ... } -> Recomendado
+  `export class Foo { ... } -> Recomendado`
 
-- **Exportar clases y objetos estáticos: **No es recomendable crear clases contenedoras para exportar todos los objetos de un archivo, para esto se recomienda exportar cada uno por separado:
+- Exportar clases y objetos estáticos: No es recomendable crear clases contenedoras para exportar todos los objetos de un archivo, para esto se recomienda exportar cada uno por separado:
 
-/\*_ @return {number} _/
+  `/\*_ @return {number} _/`
 
-export function bar() {
+  `export function bar() {`
 
-return 1;
+  `return 1;`
 
-}
+  `}`
 
-/\*_ another way to do the bar function using arrow functions _/
+  `/\*_ another way to do the bar function using arrow functions _/`
 
-    export const bar1 = () => {
+  `export const bar1 = () => {`
 
-return 1;
+  `return 1;`
 
-}
+  `}`
 
-export const /\*_ number _/ FOO = 1;
+  `export const /\*_ number _/ FOO = 1;`
 
 Por más información puedes consultar [https://google.github.io/styleguide/jsguide.html#source-file-basics](https://google.github.io/styleguide/jsguide.html#source-file-basics)
 
 [https://google.github.io/styleguide/jsguide.html#source-file-structure](https://google.github.io/styleguide/jsguide.html#source-file-structure)
 
-**Naming**
+### **Naming**
 
 A continuación se explica cómo se utiliza el correcto nombramiento de métodos, paquetes, clases y variables
 
-#### **Nombres de Paquetes\*\***: \*\*Los paquetes se escriben todos de la forma lowerCamelCase. Por ejemplo, my.exampleCode.deepSpace, y no my.examplecode.deepspace o my.example_code.deep_space
+**Nombres de Paquetes**: Los paquetes se escriben todos de la forma lowerCamelCase. Por ejemplo, my.exampleCode.deepSpace, y no my.examplecode.deepspace o my.example_code.deep_space
 
-#### **Nombres de Clase: **Clases, interfaces y typedef nombres son escritos con UpperCamelCase.Por ejemplo, ClaseVendedor, y no claseVendedor o Clase_Vendedor.
+**Nombres de Clase**: Clases, interfaces y typedef nombres son escritos con UpperCamelCase.Por ejemplo, ClaseVendedor, y no claseVendedor o Clase_Vendedor.
 
-#### **Nombre Métodos: **Los métodos se escriben también con lowerCamelCase al igual que los nombres de los paquetes. Los nombres de los métodos son comúnmente verbos o frases. Por ejemplo mandarMensaje.
+**Nombre Métodos**: Los métodos se escriben también con lowerCamelCase al igual que los nombres de los paquetes. Los nombres de los métodos son comúnmente verbos o frases. Por ejemplo mandarMensaje.
 
-**Nombre de Variables: **Las variables locales, parámetros y variables no constantes todos se escriben de la forma lowerCamelCase.Por ejemplo var numeroPagina = 1. Variables constantes usan CONSTANT_CASE: todas las letras en mayúscula separadas por un guión. Ejemplo const NUMBER = 5
+**Nombre de Variables**: Las variables locales, parámetros y variables no constantes todos se escriben de la forma lowerCamelCase.Por ejemplo var numeroPagina = 1. Variables constantes usan CONSTANT_CASE: todas las letras en mayúscula separadas por un guión. Ejemplo const NUMBER = 5
 
 Mas informacion sobre como se nombra [https://google.github.io/styleguide/jsguide.html#naming](https://google.github.io/styleguide/jsguide.html#naming)
 
-**Formatting **
+### **Formatting**
 
 A continuación se explica cómo se utiliza el correcto formateo de métodos,
 
-#### **Los paréntesis se utilizan en todas las estructuras de control: **Los paréntesis son necesarios en todas las estructuras de control\*\* \*\*(if, else, for, do, while, como en otras), aun si son un línea de declaración. Ejemplo: if (unaCondicionLarga()) , hacerAlgo(); , for (let i = 0; i < foo.length; i++) bar(foo[i]);
+**Los paréntesis se utilizan en todas las estructuras de control**: Los paréntesis son necesarios en todas las estructuras de control\*\* \*\*(if, else, for, do, while, como en otras), aun si son un línea de declaración. Ejemplo: if (unaCondicionLarga()) , hacerAlgo(); , for (let i = 0; i < foo.length; i++) bar(foo[i]);
 
-#### **Bloques Vacíos: **Un bloque vacío puede ser cerrado inmediatamente después de abrirse sin caracteres espacios o separación de línea como por ejemplo al usar los {}. Ejemplo: function moverAlgo(){}.
+**Bloques Vacíos**: Un bloque vacío puede ser cerrado inmediatamente después de abrirse sin caracteres espacios o separación de línea como por ejemplo al usar los {}. Ejemplo: function moverAlgo(){}.
 
-#### **Sentencias: **
+**Sentencias:**
 
 - Una sentencia por línea: Cada sentencia es seguida por un salto de línea;
 
@@ -100,17 +100,15 @@ A continuación se explica cómo se utiliza el correcto formateo de métodos,
 
 - Máximo de caracteres: Una sentencia no puede tener más de 80 caracteres.
 
-#### **Comentarios: **Bloques de comentarios son indentados igual que el codido de sus alrededor. Se utiliza la siguiente estructura para hacer muchos comentarios /_ … _/ o // para hacer una línea de comentario.
+**Comentarios**: Bloques de comentarios son indentados igual que el codido de sus alrededor. Se utiliza la siguiente estructura para hacer muchos comentarios /_ ... _/ o // para hacer una línea de comentario.
 
 #### Ejemplo
 
-#### /\* Se deja comentario
+`/* Se deja comentario`
+`mas informacion`
+`*/`
 
-#### mas informacion
-
-#### \*/
-
-#### // Se deja un comentario
+`// Se deja un comentario`
 
 Mas informacion de Formatting [https://google.github.io/styleguide/jsguide.html#formatting](https://google.github.io/styleguide/jsguide.html#formatting)
 
