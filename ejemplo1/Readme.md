@@ -84,7 +84,7 @@ Para crear este archivo deben abrir un archivo con terminación **.js **y ejecut
 
 Y seleccionar abajo a la derecha la opción para configurar un archivo **jsconfig.json**:
 
-## ![image alt text](image_10.png)
+![image alt text](image_10.png)
 
 Al seleccionar esa opción se creará el siguiente archivo con algunas configuraciones por defecto y al salvar quedará guardado en la ruta del proyecto.
 
