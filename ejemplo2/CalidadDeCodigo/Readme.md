@@ -130,7 +130,7 @@ En la imágen hay dos Tabs dónde hacer la configuración (User y Workspace), re
 
 ## **Manejo de problemas en VS Code**
 
-Algo que nos puede ayudar mucho mejorar nuestro código en Vs Code es el Problem Panel, estese se activa cuando ocurre algún error en el código y por lo tanto al ejecutar puede no ser interpretado correctamente.
+Algo que nos puede ayudar mucho mejorar nuestro código en Vs Code es el **Problem Panel**, este se se activa cuando ocurre algún error en el código y por lo tanto al ejecutar puede no ser interpretado correctamente.
 Simplemente se va al problem pane mediante Views -> Problems y se obtiene el error que encontró
 
 ![image alt text](readmeImages/image_3.png)
