@@ -196,8 +196,6 @@ Como hemos comentado en la guía 1, desde el settings de visual studio se pueden
 
 ![image alt text](readmeImages/image_8.png)
 
-**<No estoy seguro si esta sea la mejor extensión>**
-
 Haremos lo mismo con JSHint:
 
 ![image alt text](readmeImages/image_9.png)
