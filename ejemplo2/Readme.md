@@ -137,7 +137,7 @@ El resultado es el siguiente:
 
 ##
 
-Implementación de la lógica:
+### Implementación de la lógica:
 
 La única funcionalidad que tendrá esta pantalla es la posibilidad de llenar los datos del formulario y enviarlo a una función que validará que no falte nada, en caso de ocurrir un fallo retornará un error y node se encargará de este.
 
