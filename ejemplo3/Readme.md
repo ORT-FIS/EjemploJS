@@ -4,7 +4,7 @@
 
 **Motivos para realizar un test unitario**
 
-- Si todavía no estás del todo seguro de por qué debes incorporar las unit testing a tu día a día como desarrollador, te damos algunos motivos:
+Si todavía no estás del todo seguro de por qué debes incorporar las unit testing a tu día a día como desarrollador, te damos algunos motivos:
 
 - Las pruebas unitarias demuestran que la lógica del código está en buen estado y que funcionará en todos los casos.
 
